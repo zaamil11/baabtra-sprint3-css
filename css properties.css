@@ -1,0 +1,83 @@
+/* color properties */
+
+h1{
+    /* color: brown; */
+    /* color: aquamarine; */
+    color: rgb(255, 0, 0);
+    color: #4110a7;
+}
+
+/* border properties */
+
+h1{
+    /* border: 2px solid red; */
+    border-color: chocolate;
+    border-width: 3px;
+    /* border-style: solid; */
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-radius: 10px;
+}
+/* background prperties */
+
+div{
+    height: 500px;
+    width: 600px;
+    background-color: brown;
+    background-image: url(https://picsum.photos/200/300);
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+    background-position: center bottom;
+}
+
+/* fony properties */
+
+#p1{
+    /* font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps; */
+    font :italic small-caps bold 24px Georgia ;
+}
+
+/* text properties */
+
+#p2{
+    color: blueviolet;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: 2px 3px lightcoral;
+} 
+
+#users td, #users th{
+    border: 1px solid;
+    padding: 10px;
+}
+
+#users{
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#users th{
+    background-color: chartreuse;
+    color: darkslateblue;
+    padding: 5px;
+}
+
+#users tr:nth-child(even){
+    background-color: burlywood;
+}
+
+#users tr:hover{
+    background-color: aqua;
+}
+

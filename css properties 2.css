@@ -1,0 +1,33 @@
+#div1{
+    width: fit-content;
+    height: fit-content;
+    background-color: chocolate;
+    border: 1px solid green;
+    padding: 10px;
+    visibility: hidden;
+
+}
+
+#div2{
+    width: fit-content;
+    height: fit-content;
+    background-color: chocolate;
+    border: 1px solid green;
+    padding: 10px;
+    display: none;
+}
+
+#div3{
+    height: 500px;
+    width: 800px;
+    background-color: darkgreen;
+    border: 2px solid lightgreen;
+    opacity: 1;
+}
+
+#para4{
+    color: aqua;
+    font-weight: bolder;
+    opacity: 6;
+}
+

@@ -1,0 +1,66 @@
+/* universal selector */
+*{
+    margin: 0;
+}
+ 
+/* element selector */
+p{
+    color: aqua;
+    background-color: black;
+    font-size: 20px;
+}
+
+/* contextual/descendant selector */
+p span{
+    color: brown;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+/* child selector */
+ul > li{
+    color: brown;
+    font-size: 20px;
+}
+
+/* attribute selector */
+#inp1[type="text"]{
+    font-size: 20px;
+    color: chocolate;
+}
+
+/* grouping */
+h1,h2,h3,h4{
+    color: rgb(rgb(130, 122, 12), green, blue);
+}
+
+/* 
+pseudo-element
+selector::pseudo-element{........}
+*/
+#p2::first-line{
+    color: darkorange;
+    background-color: darkslategrey;
+    font-size: 32px;
+}
+
+#h1::first-letter{
+    color: darkgreen;
+    background-color: darkgray;
+    font-size: 33px;
+}
+
+/* 
+pseudo-element
+selector::pseudo-class{........}
+*/
+#hover:hover{
+    color: darkmagenta;
+    background-color: deepskyblue;
+    font-size: 33;
+    text-decoration: none;
+}
+
+#focus-input:focus{
+    border: 4px solid red;
+}
